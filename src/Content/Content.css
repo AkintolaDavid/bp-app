@@ -1,0 +1,199 @@
+.content {
+  padding-top: 30px;
+  background-color: #addcee; /* Example background color */
+}
+.btn_container {
+  display: flex;
+  justify-content: center;
+}
+.bp_btn {
+  height: 60px;
+  width: 150px;
+  font-size: 16px;
+  border: none;
+  border-right: 5px solid #addcee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.weight_btn {
+  height: 60px;
+  width: 150px;
+  font-size: 16px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.weight_overall {
+}
+.currentreading {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+.weightdisplay {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+.weightcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.calculated_weight {
+  width: 120px;
+  border-right: 3px solid black;
+}
+.text_reading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 200px;
+}
+.goal_text {
+  /* margin-top: 10px; */
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.calculated_weight div {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  font-size: 30px;
+}
+.text_reading div {
+  height: 80px;
+}
+.last_reading_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.start_reading_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+.text_barcontainer {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+.barcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.barcontainer_starting {
+  display: flex;
+  flex-direction: column;
+}
+.barcontainer_bar {
+  display: flex;
+  justify-content: center;
+}
+.weights_away {
+  display: flex;
+  justify-content: center;
+}
+.addweightbtn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.addweightbtn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  height: 50px;
+  width: 130px;
+  font-size: 17px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.addicon {
+  font-size: 20px;
+}
+.modalcontent {
+  margin: 0px auto;
+  margin-top: 120px;
+  margin-left: 45%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  max-width: 400px;
+  height: 550px;
+}
+.modalbody {
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 20px;
+}
+.modalheader {
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.addweightreading {
+  display: flex;
+  justify-content: center;
+}
+.model_input {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+}
+.date {
+  width: 50%;
+  margin-left: 40px;
+}
+.date_input {
+  width: 50%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.time {
+  width: 50%;
+  margin-left: 40px;
+}
+.time_input {
+  width: 50%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.weight {
+  width: 50%;
+  margin-left: 40px;
+}
+.weight_input {
+  width: 50%;
+  margin-left: 40px;
+}
